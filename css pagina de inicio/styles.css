@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(213, 222, 233);
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.contenedor-proyectos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(52, 45, 122);
+    border-radius: 5px;
+}
+
+.proyectos {
+    margin: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.proyectos:hover {
+    color: rgb(191, 237, 237);
+}
