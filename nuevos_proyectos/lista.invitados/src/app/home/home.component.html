@@ -1,0 +1,18 @@
+<body>
+  <h1>Hola, estas invitado a la mejor fiesta de halloween del 2022</h1>
+<div>
+    <img class="invitacion" src={{imgInvitacion}} alt="">
+</div>
+
+<div class="confirmacion">
+  <a href="/confirmado">
+    <button (click)="asistir()" class="boton-confirmacion">Asistir</button>
+  </a>
+  <a href="/noAsiste">
+    <button (click)="noAsistir()" class="boton-confirmacion" id="no-asistir">No asistir</button>
+  </a>
+
+</div>
+<script src="./app.component.ts"></script>
+
+</body>

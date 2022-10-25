@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AplicacionComponent } from './aplicacion.component';
+import { NoAsisteComponent } from './no-asiste.component';
 
-describe('AplicacionComponent', () => {
-  let component: AplicacionComponent;
-  let fixture: ComponentFixture<AplicacionComponent>;
+describe('NoAsisteComponent', () => {
+  let component: NoAsisteComponent;
+  let fixture: ComponentFixture<NoAsisteComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AplicacionComponent ]
+      declarations: [ NoAsisteComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(AplicacionComponent);
+    fixture = TestBed.createComponent(NoAsisteComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
