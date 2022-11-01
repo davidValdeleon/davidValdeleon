@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
 
   title = 'lista.invitados';
 
-  imgInvitacion = '../assets/imagenbienvenida.jpg';
+  imgInvitacion = '.../assets/imagenbienvenida.jpg';
 
   constructor() { }
 
