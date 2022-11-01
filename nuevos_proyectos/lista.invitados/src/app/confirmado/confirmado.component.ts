@@ -15,5 +15,4 @@ export class ConfirmadoComponent implements OnInit {
   aceptar() {
     alert('Has sido aceptado')
   }
-
 }
