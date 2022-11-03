@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # InitiumTiendaDeCafe
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# initium_tienda_de_cafe
+Es un sitio donde a parte de comprar café puedes aprender mucho sobre ello y volverte un experto
+>>>>>>> eda7353a31dc706ccfb4375e1521f87d80230c49
