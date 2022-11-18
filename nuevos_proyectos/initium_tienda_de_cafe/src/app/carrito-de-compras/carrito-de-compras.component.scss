@@ -12,11 +12,12 @@
 
 .my-order {
   width: 36rem;
-  height: 100vh;
+  height: auto;
   display: grid;
   place-items: center;
   position: absolute;
   right: 0;
+  margin-top: 0;
 }
 
 .title{
@@ -31,13 +32,13 @@
   width: 1rem;
   height: 1rem;
   opacity: 50%;
-  margin: 24rem 0 0;
+  margin: 2rem 0 0;
 }
 
 .title--name{
   font-size: var(--lg);
   font-weight: bold;
-  margin: 30rem 0 0 0;
+  margin: 2rem 0 0 0;
 }
 
 .my-order--container{

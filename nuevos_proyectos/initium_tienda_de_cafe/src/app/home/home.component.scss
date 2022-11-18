@@ -1,3 +1,12 @@
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: var(--lg);
+  font-weight: bold;
+  margin: 2rem;
+}
+
 .cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, 24rem);

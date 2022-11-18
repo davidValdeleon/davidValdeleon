@@ -17,6 +17,7 @@ nav {
   padding: 0 2.4rem;
   align-items: center;
   border-bottom: 1px solid var(--very-light-pink);
+  margin-bottom: 2rem;
 }
 
 .nav--menu{
@@ -59,7 +60,7 @@ nav {
 {
   text-decoration: none;
   color: var(--very-light-pink);
-  border: 1px solid var(--white);
+  // border: 1px solid var(--white);
   padding: .8rem;
   border-radius: 8px;
 }
