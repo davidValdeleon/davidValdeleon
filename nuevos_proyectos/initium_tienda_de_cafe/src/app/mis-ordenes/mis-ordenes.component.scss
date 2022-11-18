@@ -1,0 +1,71 @@
+:root {
+  --very-light-pink: #C7C7C7;
+  --text-input-field: #F7F7F7;
+  --hospital-green: #ACD9B2;
+  --white: #ffffff;
+  --black: #000000;
+  --dark: #232830;
+  --sm: 1.4rem;
+  --md: 1.6rem;
+  --lg: 1.8rem;
+}
+
+.my-order {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.title{
+  font-size: var(--lg);
+  margin-bottom: 4rem;
+}
+
+.my-order--container{
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 30rem;
+}
+
+.my-order--container{
+  display: flex;
+  flex-direction: column;
+}
+
+.order {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.order p:nth-child(1){
+display: flex;
+flex-direction: column;
+}
+
+.order p span:nth-child(1){
+  font-size: var(--md);
+  font-weight: bold;
+}
+
+.order p span:nth-child(2){
+  font-size: var(--sm);
+  color: var(--very-light-pink);
+}
+
+.order p:nth-child(2){
+  font-size: var(--md);
+  color: var(--dark);
+  text-align: end;
+  font-weight: 700;
+}
+
+.right-arrow {
+  width: 1rem;
+}
+
+
+

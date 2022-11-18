@@ -1,0 +1,150 @@
+:root {
+  --very-light-pink: #C7C7C7;
+  --text-input-field: #F7F7F7;
+  --hospital-green: #ACD9B2;
+  --white: #ffffff;
+  --black: #000000;
+  --dark: #232830;
+  --sm: 1.4rem;
+  --md: 1.6rem;
+  --lg: 1.8rem;
+}
+
+.my-order {
+  width: 36rem;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  right: 0;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.title img{
+  transform: rotate(180deg);
+  width: 1rem;
+  height: 1rem;
+  opacity: 50%;
+  margin: 24rem 0 0;
+}
+
+.title--name{
+  font-size: var(--lg);
+  font-weight: bold;
+  margin: 30rem 0 0 0;
+}
+
+.my-order--container{
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 30rem;
+}
+
+.my-order--container{
+  display: flex;
+  flex-direction: column;
+}
+
+.order {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 16px;
+  align-items: center;
+  background-color: var(--text-input-field);
+  margin-bottom: 2.4rem;
+  border-radius: 0.8rem;
+  padding: 2rem 2.4rem;
+}
+
+.order p:nth-child(1){
+display: flex;
+flex-direction: column;
+}
+
+.order p span:nth-child(1){
+  font-size: var(--md);
+  font-weight: bold;
+}
+
+.order p:nth-child(2){
+  text-align: end;
+  font-weight: 700;
+}
+
+
+.shopping-cart {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 1.6rem;
+  margin-bottom: 2.4rem;
+  align-items: center;
+}
+
+.shopping-cart figure img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.shopping-cart p:nth-child(2) {
+  color: var(--very-light-pink);
+}
+
+.shopping-cart p:nth-child(3) {
+  font-size: var(--md);
+  font-weight: bold;
+}
+
+.primary-button {
+  background-color: var(--hospital-green);
+  border-radius: 0.8rem;
+  border: none;
+  color: var(--white);
+  width: 100%;
+  cursor: pointer;
+  font-size: var(--md);
+  font-weight: bold;
+  height: 5rem;
+}
+
+.add-to-cart-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close {
+  width: 1.2rem;
+  height: 1.2rem;
+  opacity: 50%;
+}
+
+.close:hover  {
+  cursor: pointer;
+}
+
+.shopping-cart-button {
+    width: 2.4rem;
+    margin-right: 1rem;
+}
+
+@media (max-width: 640px) {
+
+  .my-order{
+    width: 100%;
+  }
+
+  // .product-detail {
+  //   width: 100%;
+  // }
+}
+
+
+
