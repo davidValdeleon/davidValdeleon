@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tienda de café en línea</title>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+    .productos {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .producto {
+      width: 250px;
+      margin: 10px;
+      text-align: center;
+    }
+    .producto img {
+      width: 100%;
+    }
+    .producto h3 {
+      margin-top: 0;
+    }
+    .producto p {
+      margin: 0;
+    }
+    .producto button {
+      padding: 5px 10px;
+      margin-top: 10px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    .producto button:hover {
+      background-color: blue;
+    }
+    .producto button:active {
+      background-color: green;
+    }
+  </style>
+</head>
+<body>
+  <h1>Initium</h1>
+  <div class="productos">
+    <div class="producto">
+      <img src="https://via.placeholder.com/250x250/ff0000" alt="Café de Colombia">
+      <h3>Café de Colombia</h3>
+      <p>Precio: $10</p>
+      <button onclick="agregarCarrito('Café de Colombia', 10)">Agregar al carrito</button>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/250x250/00ff00" alt="Café de México">
+</body>
+</html>
